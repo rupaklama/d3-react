@@ -1,11 +1,10 @@
 // NOTE - This is a Chart Wrapper File which is going to be a React Component to render D3 Code
-import { useState, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 import D3Chart from './D3Chart';
 
 const ChartWrapper = () => {
   const chartArea = useRef(null);
-  // const [chart] = useState(null);
 
   useEffect(() => {
     // creating an instance of D3Chart &
